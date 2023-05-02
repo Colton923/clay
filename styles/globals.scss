@@ -1,0 +1,30 @@
+:root {
+  --blue: rgba(14,105,205,1);
+  --white: rgba(255,255,255,1);
+  --black: rgba(0,0,0,1);
+  --grey: rgba(128,128,128,1);
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: 'Open Sans', sans-serif;
+  color: var(--black);
+  background-color: var(--white);
+  height: 99vh;
+  width: 100vw;
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ }
