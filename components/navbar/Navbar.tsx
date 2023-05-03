@@ -19,7 +19,7 @@ const Navbar = () => {
             <PhoneIcon />
           </div>
           <Link type={'tel'} href={'+17039998254'} className={styles.bannerItemText}>
-            (703) 999 8254
+              (703) 999 8254
           </Link>
         </div>
         <div className={styles.bannerItem}>

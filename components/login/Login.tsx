@@ -1,5 +1,5 @@
 import styles from 'styles/Login.module.scss'
-// import { useFirebaseContext } from 'components/context/FirebaseContext'
+import { useFirebaseContext } from 'context/FirebaseContext'
 
 const Login = () => {
   const { handleSignIn, setPhoneNumber, admin } = useFirebaseContext()

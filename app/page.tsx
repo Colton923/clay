@@ -1,4 +1,4 @@
-import styles from 'styles/App.module.scss'
+import styles from './App.module.scss'
 import Image from 'next/image'
 import SkylineImage from 'public/images/skyline980x612.jpg'
 

@@ -1,0 +1,23 @@
+.button {
+
+  .link {
+    display: inline-block;
+    background-color: var(--blue);
+    padding: .5rem 1rem;
+    color: var(--white);
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+}
+
+@include define-variable("key", "value");
+
+@mixin define-variable($key, $value) {
+  span.emoji-#{$key} {
+    font-family: IconFont;
+    font-variant: normal;
+    font-weight: normal;
+    content: $value;
+  }
+}

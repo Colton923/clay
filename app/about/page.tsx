@@ -1,4 +1,4 @@
-import styles from './about.module.scss';
+import styles from './About.module.scss';
 import skyline from 'public/images/dcFive3000x1141.jpg'
 import businessPeople from 'public/images/business1500x1001.jpg'
 import president from 'public/images/clay3047x4571.jpg'
