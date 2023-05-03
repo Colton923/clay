@@ -1,43 +1,28 @@
-.wrapper{
+.wrapper {
   display: flex;
   position: relative;
   z-index: 9;
 
-  .container{
-    color: var(--black);
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
 
-    .skylineImage{
+  span {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--black);
+  }
+
+  .container {
+    .skylineImage {
       z-index: 0;
     }
 
-    .title{
+    .title {
       position: relative;
       top: -150px;
       z-index: 1;
-
-      .titleText{
-        font-size: 1.5rem;
-        font-weight: 800;
-      }
-
-      .titleSubText{
-        font-size: 1.5rem;
-        font-weight: 300;
-      }
-    }
-
-    .subTitle{
-      font-size: 1.5rem;
-      font-weight: 800;
-    }
-
-    .paragraph{
-      font-size: 1.5rem;
-      font-weight: 300;
-      color: var(--black);
-      }
     }
 }
-
-
-
+}
