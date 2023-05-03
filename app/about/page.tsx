@@ -10,7 +10,11 @@ export default function About() {
   return (
     <div className={styles.pageWrapper}>
       <div className={styles.heroWrapper}>
-        <Image alt="dc-skyline" src={skyline} width={1200} height={300} />
+        <Image 
+          alt="dc-skyline" 
+          src={skyline}
+          placeholder='blur'
+        />
       </div>
       <div className={styles.contentWrapper}>
         <div className={styles.topSection}>
@@ -22,15 +26,13 @@ export default function About() {
               {`We are dedicated to fulfilling the specific needs of each client and ensuring their complete satisfaction with our work. Our area of expertise is performing renovations and repairs on occupied commercial and residential properties without causing significant disruption to the daily operations and routines of the occupants. Our clients include management firms and owners of commercial, residential and industrial properties.`}
             </p>
             <p>{`Please review our list of Services for more information.`}</p>
-            <Link href="/about">OUR SERVICES</Link>
+            <Link href="/about" className={styles.buttonLink}>OUR SERVICES</Link>
           </div>
-          <div>
-            <div></div>
+          <div className={styles.topSectionImageWrapper}>
+            <div className={styles.blueBox}></div>
             <Image
               alt="business-people-meeting-business-park"
               src={businessPeople}
-              width={500}
-              height={333}
             />
           </div>
         </div>
@@ -40,13 +42,15 @@ export default function About() {
           <p>
           {`Our company is committed to providing long-term employment opportunities for our staff. We strive to foster a sense of pride and belonging among our team, making Clay Construction Services feel like a second family. We select and retain dedicated team players who prioritize customer satisfaction and positive team dynamics. Our field staff go through comprehensive initial training and ongoing evaluations using advanced technology. We are committed to providing ongoing education and certifications to ensure the highest level of safety and quality for every project.`}
           </p>
-          <Link href="/about">OUR SERVICES</Link>
+          <Link href="/about" className={styles.buttonLink}>OUR SERVICES</Link>
         </div>
-        <div>
+        <div className={styles.personSection}>
           <h2>Clay Geilmann, President</h2>
           <span></span>
-          <div>
-            <Image alt="Clay Geilmann" src={president} width={166} height={250} />
+          <div className={styles.personImageWrapper}>
+            <Image 
+              alt="Clay Geilmann" 
+              src={president}  />
           </div>
           <div>
             <p>
@@ -59,15 +63,20 @@ export default function About() {
               {`Clay has extensive experience working on notable projects, including some of the tallest buildings in the country, university campuses, Class A office spaces, healthcare facilities, federal buildings, Fortune 500 campuses, and landmark structures such as the Pentagon and the Rose Bowl Stadium. He has collaborated with prestigious architectural and engineering firms across the country. He believes in continuously learning from industry experts, participating in industry trade associations, and working with the A/E community to combine skills, experience, and intelligence to support clients in achieving successful projects.`}
             </p>
           </div>
+        </div>
+      </div>
+      <div>
+        <div className={styles.bottomSection}>
+          <Image 
+            alt="building-facade" 
+            src={facade} 
+            />
           <div>
-            <Image alt="building-facade" src={facade} width={980} height={245} />
-            <div>
-              <h2>WE ARE HIRING</h2>
-              <span></span>
-              <Link href="/">{`APPLY HERE`}</Link>
-              <Link href="/">{`APLICAR AQUI' EN ESPANOL`}</Link>
-            </div>
-         </div>
+            <h2>WE ARE HIRING</h2>
+            <span></span>
+            <Link href="/" className={styles.buttonLink}>{`APPLY HERE`}</Link>
+            <Link href="/" className={styles.buttonLink}>{`APLICAR AQUI' EN ESPANOL`}</Link>
+          </div>
         </div>
       </div>
     </div>
