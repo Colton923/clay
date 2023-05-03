@@ -10,10 +10,13 @@ export default function About() {
   return (
     <div className={styles.pageWrapper}>
       <div className={styles.heroWrapper}>
-        <Image 
+        <Image
           alt="dc-skyline" 
           src={skyline}
           placeholder='blur'
+          sizes='100vw'
+          fill
+
         />
       </div>
       <div className={styles.contentWrapper}>
@@ -28,12 +31,16 @@ export default function About() {
             <p>{`Please review our list of Services for more information.`}</p>
             <Link href="/about" className={styles.buttonLink}>OUR SERVICES</Link>
           </div>
-          <div className={styles.topSectionImageWrapper}>
+          <div className={styles.topSectionImageGrid}>
             <div className={styles.blueBox}></div>
-            <Image
-              alt="business-people-meeting-business-park"
-              src={businessPeople}
-            />
+            <div className={styles.topSectionImageWrapper}>
+              <Image
+                alt="business-people-meeting-business-park"
+                src={businessPeople}
+                fill
+                sizes='100vw'
+              />
+            </div>
           </div>
         </div>
         <div>
@@ -50,7 +57,11 @@ export default function About() {
           <div className={styles.personImageWrapper}>
             <Image 
               alt="Clay Geilmann" 
-              src={president}  />
+              src={president}
+              sizes="100vw"
+              fill
+              />
+              
           </div>
           <div>
             <p>
@@ -65,20 +76,27 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div>
         <div className={styles.bottomSection}>
-          <Image 
-            alt="building-facade" 
-            src={facade} 
-            />
-          <div>
-            <h2>WE ARE HIRING</h2>
+          <div className={styles.bottomImageWrapper}>
+            <Image 
+              alt="building-facade" 
+              src={facade} 
+              fill
+              
+              />
+          </div>
+          <div className={styles.bottomSectionContent}>
+          <h2>WE ARE HIRING</h2>
             <span></span>
             <Link href="/" className={styles.buttonLink}>{`APPLY HERE`}</Link>
-            <Link href="/" className={styles.buttonLink}>{`APLICAR AQUI' EN ESPANOL`}</Link>
+            <Link
+              href="/"
+              className={styles.buttonLink}
+            >{`APLICAR AQUI' EN ESPANOL`}</Link>
+          </div>
+          
           </div>
         </div>
-      </div>
-    </div>
+    
   )
 }
