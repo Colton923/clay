@@ -24,15 +24,17 @@ export default function Index() {
         </h1>
       </div>
       <div className={styles.container} style={{ height: '600px', width: '100vw' }}>
-        <h2>Who are we?</h2>
-        <span>
+        <h2 className={styles.subTitle}>Who are we?</h2>
+        <span className={styles.paragraph}>
           Our company is dedicated to improving the value of commercial and
           residential buildings through superior restoration, renovation, and repair
           services. We use our extensive experience to create a tailored plan for
           each project, ensuring that the highest level of quality is achieved to
           increase the value of the property.
         </span>
-        <span>We currently service Virginia, Washington D.C. and Maryland.</span>
+        <span className={styles.paragraph}>
+          We currently service Virginia, Washington D.C. and Maryland.
+        </span>
       </div>
       <div className={styles.container} style={{ height: '600px', width: '100vw' }}>
         {/* We're Hiring */}
