@@ -1,0 +1,81 @@
+@mixin mediumScreen() {
+    @media (min-width: 768px) {
+        @content;
+    }
+  }
+
+  @mixin largeScreen() {
+    @media (min-width: 992px) {
+        @content;
+    }
+  }
+
+.pageWrapper {
+    max-width: 1400px;
+
+    h2 {
+        color: var(--blue);
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .heroWrapper {
+        width: 100%;
+        position: relative;
+        height: 150px;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .pageTitle {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(14,105,205,.6);
+        color: var(--white);
+        }
+
+        @include mediumScreen() {
+            height: 300px;
+        }
+    }
+
+    .pageContentWrapper {
+        padding: 1rem;
+
+        .topSectionList {
+            margin: 1rem 0 2rem 0;
+            padding: 1rem;
+            font-weight: 400;
+            border-top: 2px solid var(--blue);
+            border-bottom: 2px solid var(--blue);
+
+            li {
+                margin-bottom: .8rem;
+                
+            }
+        }
+
+        .cardGrid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            padding: 1rem;
+
+            @include mediumScreen() {
+                grid-template-columns: 1fr 1fr;
+            }
+            @include largeScreen() {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    }
+
+}
