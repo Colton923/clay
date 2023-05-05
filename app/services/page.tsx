@@ -2,6 +2,7 @@ import servicesData from 'public/data.json'
 import Card from '../../components/card/Card'
 import heroImage from 'public/images/masonryBanner.jpeg'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './Services.module.scss'
 
 type Service = {
@@ -30,8 +31,10 @@ export default function Services(): JSX.Element {
       <div className={styles.pageContentWrapper}>
         <h2>Residential & Commercial</h2>
         <ul className={styles.topSectionList}>
-          {services.map((service, index) => (
-            <li key={index}>{service.name}</li>
+          {services.map((service) => (
+            <li key={service.id}>
+              <a href={`#${service.id}`}>{service.name}</a>
+            </li>
           ))}
         </ul>
         <div className={styles.cardGrid}>

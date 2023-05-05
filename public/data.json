@@ -151,7 +151,7 @@
 		{
 			"id": 11,
 			"name": "Residential Basement Finishing",
-			"imageSrc": "/images/for-cards/residential_bath.jpg",
+			"imageSrc": "/images/for-cards/residential_basement.jpg",
 			"details": [
 				"Additional Bathrooms",
 				"Additional Bedrooms - Code Permitting",
@@ -169,7 +169,7 @@
 		{
 			"id": 12,
 			"name": "Residential Specialty Projects",
-			"imageSrc": "/images/for-cards/residential_bath.jpg",
+			"imageSrc": "/images/for-cards/residential_specialty.jpg",
 			"details": [
 				"Decks",
 				"Pergolas",

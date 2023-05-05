@@ -3,13 +3,10 @@ import styles from './Card.module.scss'
 import Image from 'next/image'
 import { CardProps } from 'app/services/page'
 
-
-
-
 const Card = ({ service }: CardProps) => {
   return (
-    <div className={styles.card}>
-      <h2>{service.name}</h2>
+    <div className={styles.card} id={`${service.id}`}>
+      <h2 className={styles.card_h2}>{service.name}</h2>
       <div className={styles.cardImageWrapper}>
         <Image
           src={service.imageSrc}
