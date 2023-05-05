@@ -9,15 +9,6 @@ import Image from 'next/image';
 export default function About() {
   return (
     <div className={styles.pageWrapper}>
-      <div className={styles.heroWrapper}>
-        <Image
-          alt="dc-skyline"
-          src={skyline}
-          placeholder="blur"
-          sizes="100vw"
-          fill
-        />
-      </div>
       <div className={styles.contentWrapper}>
         <div className={styles.topSection}>
           <div>

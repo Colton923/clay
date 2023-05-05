@@ -3,6 +3,10 @@ import Navbar from 'components/navbar/Navbar'
 import { SiteContextProvider } from 'context/SiteContext'
 import Footer from 'components/footer/Footer'
 import { Open_Sans } from 'next/font/google'
+import skyline1 from 'public/images/skyline980x612.jpg'
+import skyline2 from 'public/images/dcFive3000x1141.jpg'
+import styles from 'styles/App.module.scss'
+import Image from 'next/image'
 
 interface Props {
   children: React.ReactNode
@@ -11,10 +15,11 @@ interface Props {
 const Font = Open_Sans({
   display: 'swap',
   weight: ['300', '400', '800'],
-  subsets: ['latin'],
+  subsets: ['latin-ext'],
 })
 
 export default async function RootLayout({ children }: Props) {
+
   return (
     <html lang="en" className={Font.className}>
       <head>
@@ -80,10 +85,26 @@ export default async function RootLayout({ children }: Props) {
         <main>
           <SiteContextProvider>
             <Navbar />
-            {children}
-            <Footer />
+            <div className={styles.pageWrapper}>
+              <div className={styles.heroWrapper }>
+                <div className={styles.overlapGrid}>
+                <div className={styles.heroGradiantOverlay}></div>
+                <Image
+                  alt="dc-skyline"
+                  src={Math.random() > 0.5 ? skyline1 : skyline2}
+                  placeholder="blur"
+                  sizes="100vw"
+                  fill
+                  className={styles.heroImage}
+                  quality={100}
+                />
+                </div>
+              </div>
+              {children}
+            </div>
           </SiteContextProvider>
         </main>
+        <Footer />
       </body>
     </html>
   )

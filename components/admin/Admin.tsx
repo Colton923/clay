@@ -4,9 +4,6 @@ import Grid from 'components/grid/Grid'
 export default function Admin() {
   // const { admin } = useFirebaseContext()
 
-  if (admin) {
+  // if (admin) {[]]/
     return <div>{/* <Grid /> */}</div>
-  } else {
-    return <div></div>
-  }
 }
