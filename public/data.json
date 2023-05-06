@@ -3,187 +3,195 @@
 {
 	"services": [
 		{
-			"id": 1,
-			"name": "Commercial Concrete Repair and Restoration",
-			"imageSrc": "/images/for-cards/concrete.jpg",
-			"details": [
-				"Structural & Non-Structural Cast-In-Place Concrete Repair",
-				"Post-Tensioned Concrete Repair",
-				"Precast Concrete Repair",
-				"Asthetic Architectural Concrete Repairs",
-				"Cathodic Protection",
-				"Parking Garages",
-				"Plazas",
-				"Pedestrian Walkways",
-				"Stadiums"
-			]
+			"commercial": [
+			{
+				"id": 1,
+				"name": "Commercial Concrete Repair and Restoration",
+				"imageSrc": "/images/for-cards/concrete.jpg",
+				"details": [
+					"Structural & Non-Structural Cast-In-Place Concrete Repair",
+					"Post-Tensioned Concrete Repair",
+					"Precast Concrete Repair",
+					"Asthetic Architectural Concrete Repairs",
+					"Cathodic Protection",
+					"Parking Garages",
+					"Plazas",
+					"Pedestrian Walkways",
+					"Stadiums"
+				]
+			},
+			{
+				"id": 2,
+				"name": "Commercial Concrete Strengthening",
+				"imageSrc": "/images/for-cards/concrete2.jpg",
+				"details": [
+					"Emergency and Temporary Shoring Installation",
+					"Fiber-Reinforced Polymer (FRP) Systems",
+					"Concrete Jacketing For Increase Load Capacity",
+					"New Structural Concrete Components",
+					"Stairwell or Elevator Slab Opening Modification",
+					"Expansion Joint Opening Modifications",
+					"Epoxy Injection",
+					"Supplemental Engineered Steel Components"
+				]
+			},
+			{
+				"id": 3,
+				"name": "Commercial Masonry Repair and Restoration",
+				"imageSrc": "/images/for-cards/bricklaying.jpg",
+				"details": [
+					"Masonry Repointing",
+					"Masonry Replacement",
+					"Masonry Replacement",
+					"Door and Window Lintel Repairs and Waterproofing​",
+					"Paver Assemblies",
+					"Stone Replacement",
+					"Stone Patching",
+					"Building Facade Cleaning",
+					"Graffiti Remediation"
+				]
+			},
+			{
+				"id": 4,
+				"name": "Commercial Building Envelope Waterproofing",
+				"imageSrc": "/images/for-cards/waterproofing.jpg",
+				"details": [
+					"Structural Waterproofing",
+					"Air and Water Barriers​​",
+					"Wall Coatings",
+					"Expansion Joint Systems",
+					"Waterproof Traffic Coatings",
+					"Tank and Water Feature Coatings",
+					"High Performance Penetrating Sealer Treatments",
+					"Chemical Grout Injection",
+					"Specialty Coatings​"
+				]
+			},
+			{
+				"id": 5,
+				"name": "Commercial Building Envelope Sealants",
+				"imageSrc": "/images/for-cards/sealant.jpg",
+				"details": [
+					"Vertical Caulking",
+					"Horizontal Caulking",
+					"Specialty Caulking"
+				]
+			},
+			{
+				"id": 6,
+				"name": "Commercial Liquid Applied Roofing",
+				"imageSrc": "/images/for-cards/roofing.jpg",
+				"details": [
+					"Roof Restoration Liquid Applied Systems",
+					"Roof Repairs",
+					"Industry Expert Consulting Partners"
+				]
+			},
+			{
+				"id": 7,
+				"name": "Commercial Specialty Projects",
+				"imageSrc": "/images/for-cards/pavers.jpg",
+				"details": [
+					"Leak Detection",
+					"Surface Prep",
+					"Parking Traffic Markings",
+					"Parking Garage Barrier Cable Repairs",
+					"Hardscape Projects",
+					"Plumbing",
+					"Roof Anchor Assemblies",
+					"Vertical Access Solutions"
+				]
+			},
+			{
+				"id": 8,
+				"name": "Commercial and Residential Preconstruction Services",
+				"imageSrc": "/images/for-cards/preconstruction.jpg",
+				"details": [
+					"Existing Condition Analysis",
+					"Project Team Selection",
+					"Budgets and Cost Estimating",
+					"Scheduling, Phasing and Logistics Planning",
+					"Final Design and Submittal Process",
+					"Project Execution",
+					"Industry Expert Consulting Partners"
+				]
+			}
+		]
 		},
-		{
-			"id": 2,
-			"name": "Commercial Concrete Strengthening",
-			"imageSrc": "/images/for-cards/concrete2.jpg",
-			"details": [
-				"Emergency and Temporary Shoring Installation",
-				"Fiber-Reinforced Polymer (FRP) Systems",
-				"Concrete Jacketing For Increase Load Capacity",
-				"New Structural Concrete Components",
-				"Stairwell or Elevator Slab Opening Modification",
-				"Expansion Joint Opening Modifications",
-				"Epoxy Injection",
-				"Supplemental Engineered Steel Components"
-			]
-		},
-		{
-			"id": 3,
-			"name": "Commercial Masonry Repair and Restoration",
-			"imageSrc": "/images/for-cards/bricklaying.jpg",
-			"details": [
-				"Masonry Repointing",
-				"Masonry Replacement",
-				"Masonry Replacement",
-				"Door and Window Lintel Repairs and Waterproofing​",
-				"Paver Assemblies",
-				"Stone Replacement",
-				"Stone Patching",
-				"Building Facade Cleaning",
-				"Graffiti Remediation"
-			]
-		},
-		{
-			"id": 4,
-			"name": "Commercial Building Envelope Waterproofing",
-			"imageSrc": "/images/for-cards/waterproofing.jpg",
-			"details": [
-				"Structural Waterproofing",
-				"Air and Water Barriers​​",
-				"Wall Coatings",
-				"Expansion Joint Systems",
-				"Waterproof Traffic Coatings",
-				"Tank and Water Feature Coatings",
-				"High Performance Penetrating Sealer Treatments",
-				"Chemical Grout Injection",
-				"Specialty Coatings​"
-			]
-		},
-		{
-			"id": 5,
-			"name": "Commercial Building Envelope Sealants",
-			"imageSrc": "/images/for-cards/sealant.jpg",
-			"details": [
-				"Vertical Caulking",
-				"Horizontal Caulking",
-				"Specialty Caulking"
-			]
-		},
-		{
-			"id": 6,
-			"name": "Commercial Liquid Applied Roofing",
-			"imageSrc": "/images/for-cards/roofing.jpg",
-			"details": [
-				"Roof Restoration Liquid Applied Systems",
-				"Roof Repairs",
-				"Industry Expert Consulting Partners"
-			]
-		},
-		{
-			"id": 7,
-			"name": "Commercial Specialty Projects",
-			"imageSrc": "/images/for-cards/pavers.jpg",
-			"details": [
-				"Leak Detection",
-				"Surface Prep",
-				"Parking Traffic Markings",
-				"Parking Garage Barrier Cable Repairs",
-				"Hardscape Projects",
-				"Plumbing",
-				"Roof Anchor Assemblies",
-				"Vertical Access Solutions"
-			]
-		},
-		{
-			"id": 8,
-			"name": "Commercial and Residential Preconstruction Services",
-			"imageSrc": "/images/for-cards/preconstruction.jpg",
-			"details": [
-				"Existing Condition Analysis",
-				"Project Team Selection",
-				"Budgets and Cost Estimating",
-				"Scheduling, Phasing and Logistics Planning",
-				"Final Design and Submittal Process",
-				"Project Execution",
-				"Industry Expert Consulting Partners"
-			]
-		},
-		{
-			"id": 9,
-			"name": "Residential Kitchen Remodel",
-			"imageSrc": "/images/for-cards/residential_kitch.jpg",
-			"details": [
-				"Kitchen Types: Traditional, Modern, Transitional",
-				"Cabinets",
-				"Custom",
-				"Prefabricated",
-				"Design",
-				"Owner Designer Required",
-				"Industry Expert Designer Third Party Partner Recommendations",
-				"Project Management",
-				"One Project At A Time = Attention",
-				"Daily Reports"
-			]
-		},
-		{
-			"id": 10,
-			"name": "Residential Bathroom Remodel",
-			"imageSrc": "/images/for-cards/residential_bath.jpg",
-			"details": [
-				"Bathroom Types: Master, Full, Half",
-				"Cabinets",
-				"Custom",
-				"Prefabricated",
-				"Design",
-				"Owner Designer Required",
-				"Industry Expert Designer Third Party Partner Recommendations",
-				"Project Management",
-				"One Project At A Time = Attention",
-				"Daily Reports"
-			]
-		},
-		{
-			"id": 11,
-			"name": "Residential Basement Finishing",
-			"imageSrc": "/images/for-cards/residential_basement.jpg",
-			"details": [
-				"Additional Bathrooms",
-				"Additional Bedrooms - Code Permitting",
-				"Home Theatres",
-				"Game Rooms",
-				"Wet Bars",
-				"Design",
-				"Owner Designer Required",
-				"Industry Expert Designer Third Party Partner Recommendations",
-				"Project Management",
-				"One Project At A Time = Attention",
-				"Daily Reports"
-			]
-		},
-		{
-			"id": 12,
-			"name": "Residential Specialty Projects",
-			"imageSrc": "/images/for-cards/residential_specialty.jpg",
-			"details": [
-				"Decks",
-				"Pergolas",
-				"Fencing",
-				"Minor Landscape Upgrades",
-				"Concrete",
-				"Pavers",
-				"Retaining Walls",
-				"Outdoor Living Spaces",
-				"Custom Sheds",
-				"Garage Remodeling",
-				"Garage High Performance Epoxy Coatings"
-			]
+	    {
+			"residential": [
+			{
+				"id": 9,
+				"name": "Residential Kitchen Remodel",
+				"imageSrc": "/images/for-cards/residential_kitch.jpg",
+				"details": [
+					"Kitchen Types: Traditional, Modern, Transitional",
+					"Cabinets",
+					"Custom",
+					"Prefabricated",
+					"Design",
+					"Owner Designer Required",
+					"Industry Expert Designer Third Party Partner Recommendations",
+					"Project Management",
+					"One Project At A Time = Attention",
+					"Daily Reports"
+				]
+			},
+			{
+				"id": 10,
+				"name": "Residential Bathroom Remodel",
+				"imageSrc": "/images/for-cards/residential_bath.jpg",
+				"details": [
+					"Bathroom Types: Master, Full, Half",
+					"Cabinets",
+					"Custom",
+					"Prefabricated",
+					"Design",
+					"Owner Designer Required",
+					"Industry Expert Designer Third Party Partner Recommendations",
+					"Project Management",
+					"One Project At A Time = Attention",
+					"Daily Reports"
+				]
+			},
+			{
+				"id": 11,
+				"name": "Residential Basement Finishing",
+				"imageSrc": "/images/for-cards/residential_basement.jpg",
+				"details": [
+					"Additional Bathrooms",
+					"Additional Bedrooms - Code Permitting",
+					"Home Theatres",
+					"Game Rooms",
+					"Wet Bars",
+					"Design",
+					"Owner Designer Required",
+					"Industry Expert Designer Third Party Partner Recommendations",
+					"Project Management",
+					"One Project At A Time = Attention",
+					"Daily Reports"
+				]
+			},
+			{
+				"id": 12,
+				"name": "Residential Specialty Projects",
+				"imageSrc": "/images/for-cards/residential_specialty.jpg",
+				"details": [
+					"Decks",
+					"Pergolas",
+					"Fencing",
+					"Minor Landscape Upgrades",
+					"Concrete",
+					"Pavers",
+					"Retaining Walls",
+					"Outdoor Living Spaces",
+					"Custom Sheds",
+					"Garage Remodeling",
+					"Garage High Performance Epoxy Coatings"
+				]
+			}
+		]
 		}
 	]
-    
 }
+
