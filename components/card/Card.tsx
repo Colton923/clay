@@ -6,7 +6,6 @@ import { CardProps } from 'app/services/page'
 const Card = ({ service }: CardProps) => {
   return (
     <div className={styles.card} id={`${service.id}`}>
-      <h2 className={styles.card_h2}>{service.name}</h2>
       <div className={styles.cardImageWrapper}>
         <Image
           src={service.imageSrc}
@@ -15,9 +14,12 @@ const Card = ({ service }: CardProps) => {
           height={300}
         />
       </div>
-      <ul>
+      <div className={styles.card_h2Wrapper}>
+        <h2 className={styles.card_h2}>{service.name}</h2>
+      </div>
+      <ul className={styles.card_ul}>
         {service.details.map((item, index) => (
-          <li key={index}>{item}</li>
+          <li key={index}>- {item}</li>
         ))}
       </ul>
     </div>

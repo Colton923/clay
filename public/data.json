@@ -6,7 +6,7 @@
 			"commercial": [
 			{
 				"id": 1,
-				"name": "Commercial Concrete Repair and Restoration",
+				"name": "Concrete Repair and Restoration",
 				"imageSrc": "/images/for-cards/concrete.jpg",
 				"details": [
 					"Structural & Non-Structural Cast-In-Place Concrete Repair",
@@ -22,7 +22,7 @@
 			},
 			{
 				"id": 2,
-				"name": "Commercial Concrete Strengthening",
+				"name": "Concrete Strengthening",
 				"imageSrc": "/images/for-cards/concrete2.jpg",
 				"details": [
 					"Emergency and Temporary Shoring Installation",
@@ -37,7 +37,7 @@
 			},
 			{
 				"id": 3,
-				"name": "Commercial Masonry Repair and Restoration",
+				"name": "Masonry Repair and Restoration",
 				"imageSrc": "/images/for-cards/bricklaying.jpg",
 				"details": [
 					"Masonry Repointing",
@@ -53,7 +53,7 @@
 			},
 			{
 				"id": 4,
-				"name": "Commercial Building Envelope Waterproofing",
+				"name": "Building Envelope Waterproofing",
 				"imageSrc": "/images/for-cards/waterproofing.jpg",
 				"details": [
 					"Structural Waterproofing",
@@ -69,7 +69,7 @@
 			},
 			{
 				"id": 5,
-				"name": "Commercial Building Envelope Sealants",
+				"name": "Building Envelope Sealants",
 				"imageSrc": "/images/for-cards/sealant.jpg",
 				"details": [
 					"Vertical Caulking",
@@ -79,7 +79,7 @@
 			},
 			{
 				"id": 6,
-				"name": "Commercial Liquid Applied Roofing",
+				"name": "Liquid Applied Roofing",
 				"imageSrc": "/images/for-cards/roofing.jpg",
 				"details": [
 					"Roof Restoration Liquid Applied Systems",
@@ -89,7 +89,7 @@
 			},
 			{
 				"id": 7,
-				"name": "Commercial Specialty Projects",
+				"name": "Specialty Projects",
 				"imageSrc": "/images/for-cards/pavers.jpg",
 				"details": [
 					"Leak Detection",
@@ -104,7 +104,7 @@
 			},
 			{
 				"id": 8,
-				"name": "Commercial and Residential Preconstruction Services",
+				"name": "Preconstruction Services",
 				"imageSrc": "/images/for-cards/preconstruction.jpg",
 				"details": [
 					"Existing Condition Analysis",
@@ -122,7 +122,7 @@
 			"residential": [
 			{
 				"id": 9,
-				"name": "Residential Kitchen Remodel",
+				"name": "Kitchen Remodel",
 				"imageSrc": "/images/for-cards/residential_kitch.jpg",
 				"details": [
 					"Kitchen Types: Traditional, Modern, Transitional",
@@ -139,7 +139,7 @@
 			},
 			{
 				"id": 10,
-				"name": "Residential Bathroom Remodel",
+				"name": "Bathroom Remodel",
 				"imageSrc": "/images/for-cards/residential_bath.jpg",
 				"details": [
 					"Bathroom Types: Master, Full, Half",
@@ -156,7 +156,7 @@
 			},
 			{
 				"id": 11,
-				"name": "Residential Basement Finishing",
+				"name": "Basement Finishing",
 				"imageSrc": "/images/for-cards/residential_basement.jpg",
 				"details": [
 					"Additional Bathrooms",
@@ -174,7 +174,7 @@
 			},
 			{
 				"id": 12,
-				"name": "Residential Specialty Projects",
+				"name": "Specialty Projects",
 				"imageSrc": "/images/for-cards/residential_specialty.jpg",
 				"details": [
 					"Decks",

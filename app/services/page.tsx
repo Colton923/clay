@@ -1,9 +1,5 @@
-'use client'
 import servicesData from 'public/data.json'
 import Card from '../../components/card/Card'
-import heroImage from 'public/images/masonryBanner.jpeg'
-import Image from 'next/image'
-import Link from 'next/link'
 import styles from './Services.module.scss'
 
 type Service = {
@@ -11,7 +7,6 @@ type Service = {
   name: string
   details: string[]
   imageSrc: string
-  // Add any other properties of your service object here
 }
 
 export type CardProps = {
@@ -22,17 +17,12 @@ export default function Services(): JSX.Element {
   const { commercial } = servicesData.services[0]
   const { residential } = servicesData.services[1]
 
-  console.log(commercial)
-  console.log(residential)
   return (
     <div className={styles.pageWrapper}>
-      {/* <div className={styles.heroWrapper}>
-        <Image alt="masonry" src={heroImage} placeholder="blur" sizes="100vw" fill />
-        <div className={styles.pageTitle}>
-          <h1>SERVICES</h1>
-        </div>
-      </div> */}
       <div className={styles.pageContentWrapper}>
+        <h1>
+          <span className={styles.h1Span}>Explore</span> Our Services
+        </h1>
         <div className={styles.topSectionWrapper}>
           <div className={styles.serviceTypeWrapper}>
             <h2>Commercial</h2>
@@ -45,21 +35,33 @@ export default function Services(): JSX.Element {
             </ul>
           </div>
           <div className={styles.serviceTypeWrapper}>
-          <h2>Residential</h2>
+            <h2>Residential</h2>
             <ul className={styles.topSectionList}>
-            {residential?.map((service) => (
-              <li key={service.id}>
-                <a href={`#${service.id}`}>{service.name}</a>
-              </li>
-            ))}
-          </ul>
+              {residential?.map((service) => (
+                <li key={service.id}>
+                  <a href={`#${service.id}`}>{service.name}</a>
+                </li>
+              ))}
+            </ul>
           </div>
-          
         </div>
-        <div className={styles.cardGrid}>
-          {/* {services.map((service) => (
-            <Card service={service} key={service.id} />
-          ))} */}
+        <div className={styles.cardGrids}>
+          <div>
+            <h2 className={styles.grid_h2}>COMMERCIAL</h2>
+            <div className={styles.serviceTypeGrid}>
+              {commercial?.map((service) => (
+                <Card service={service} key={service.id} />
+              ))}
+            </div>
+          </div>
+          <div>
+            <h2 className={styles.grid_h2}>RESIDENTIAL</h2>
+            <div className={styles.serviceTypeGrid}>
+              {residential?.map((service) => (
+                <Card service={service} key={service.id} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
