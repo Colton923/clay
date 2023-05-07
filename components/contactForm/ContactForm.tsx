@@ -79,9 +79,7 @@ const ContactForm = () => {
             rows={10}
             value={form.message}
             onChange={handleChange}
-          >
-            Message
-          </textarea>
+          />
         </div>
         <button type="submit" className={styles.formButton}>
           Send
