@@ -29,7 +29,6 @@ const ContactForm = () => {
       phone: '',
       message: '',
     })
-    alert(form.email + ' ' + form.first)
   }
 
   return (
@@ -84,7 +83,9 @@ const ContactForm = () => {
             Message
           </textarea>
         </div>
-        <button type="submit" className={styles.formButton}>Send</button>
+        <button type="submit" className={styles.formButton}>
+          Send
+        </button>
       </form>
     </div>
   )

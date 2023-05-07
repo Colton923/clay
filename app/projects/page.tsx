@@ -41,11 +41,11 @@ export default function Projects() {
         />
         <Project
           imageSrc={`/images/projects/residential-mixed1280x853.jpeg`}
-          name="Residentail Mixed Use"
+          name="Residential Mixed Use"
         />
         <Project
           imageSrc={`/images/projects/residential-single1280x933.jpeg`}
-          name="Residentail Single Family"
+          name="Residential Single Family"
         />
       </div>
     </div>
