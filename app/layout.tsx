@@ -70,9 +70,9 @@ export default async function RootLayout({ children }: Props) {
         <meta property="article:publisher" content="" />
         <meta property="og:locale" content="en_US" />
         {/* This meta tag is for your representative image <meta property="og:image" content="https://westernspecialtycontractors.com/wp-content/uploads/2020/07/Peopleatwork-scaled.jpg" /> */}
-        <meta property="og:image:width" content="2560" />
+        {/* <meta property="og:image:width" content="2560" />
         <meta property="og:image:height" content="1707" />
-        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:type" content="image/jpeg" /> */}
         <meta name="twitter:card" content="" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:label1" content="" />
