@@ -1,7 +1,7 @@
 :root {
-  --blue: rgba(14,105,205,1);
-  --white: rgba(255,255,255,1);
-  --black: rgba(0,0,0,1);
+  --blue: rgba(14, 105, 205, 1);
+  --white: rgba(255, 255, 255, 1);
+  --black: rgba(0, 0, 0, 1);
   --grey: rgb(187, 186, 186);
   --medium-grey: rgba(70, 70, 70, 1);
   --light: 300;
@@ -18,7 +18,7 @@
 
 body {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   font-style: 'Open Sans', sans-serif;
   color: var(--black);
@@ -29,4 +29,4 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
- }
+}
